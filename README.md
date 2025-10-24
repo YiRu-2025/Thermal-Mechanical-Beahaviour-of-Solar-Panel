@@ -31,23 +31,23 @@ Goal: Obtain elementary stiffness Ke and elementary force vector fe
 
 ## modeling and simulation results
 run modelget.py, we can get the descretized solar panel model:
-![solar panel model](image.png)
+![solar panel model](resultFig/image.png)
 
 run thermal.py, we can get the thermal behaviour of model:
-temperature distribution: ![temperature](image-1.png)
-heat flux vector: ![heatflux](image-2.png)
+temperature distribution: ![temperature](resultFig/image-1.png)
+heat flux vector: ![heatflux](resultFig/image-2.png)
 
 run thermomechanical.py, we can get the mechanical response with all previous figures (model and thermal behavior):
 displacement in total:
-![displ](image-3.png)
-![displ2](image-4.png)
+![displ](resultFig/image-3.png)
+![displ2](resultFig/image-4.png)
 
 displacement in x or y direction (for 2d model):
-![dispxx](image-7.png)
-![dispyy](image-8.png)
+![dispxx](resultFig/image-7.png)
+![dispyy](resultFig/image-8.png)
 
 stress:
-![sigmaxx](image-6.png)
-![sigmayy](image-5.png)
+![sigmaxx](resultFig/image-6.png)
+![sigmayy](resultFig/image-5.png)
 
 
